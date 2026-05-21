@@ -419,7 +419,7 @@ function PortfolioPage() {
                 <div className="browser-url-placeholder" />
               </div>
               <div className="browser-content">
-                <iframe src={stores[activeStore].embed} title={stores[activeStore].name} className="store-iframe" />
+                <iframe src={stores[activeStore].embed} title={stores[activeStore].name} className="store-iframe" sandbox="allow-scripts allow-same-origin" />
               </div>
             </div>
 
